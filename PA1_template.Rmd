@@ -95,7 +95,10 @@ Total of missing values is **`r missing`** in the dataset.
 
 <br>
 
-####Create a new dataset that is equal to the original dataset but with the missing data filled in:
+####Create a new dataset that is equal to the original dataset but with the missing data filled in:  
+**Strategy:** First, duplicate a set of data from the original dataset called **'activity_filled'**. A function called **'fill'** will be defined to fill up the missing value for 'steps'. Then, use the 'ddply' on 'activity_filled' dataset to split the data by interval and use the 'fill' function to fill up the missing value by interval to complete the 'activity_filled' dataset.
+
+
 ```{r, echo=TRUE, warning=FALSE}
 library(plyr)
 
