@@ -31,7 +31,6 @@ knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='figure/',
 ******   
 
 
-
 ## What is mean total number of steps taken per day?
 ```{r, echo=TRUE}
 
@@ -52,7 +51,6 @@ From the calculation above, we can see the mean is **`r steps_mean`** and median
 <br>
 
 ******  
-
 
 
 ## What is the average daily activity pattern?
@@ -79,7 +77,6 @@ From the calculation above, we can see the **`r max_interval`**th 5-minute inter
 <br>
 
 ******   
-
 
 
 ## Imputing missing values

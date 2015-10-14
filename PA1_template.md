@@ -33,7 +33,6 @@ head(activity)
 ******   
 
 
-
 ## What is mean total number of steps taken per day?
 
 ```r
@@ -55,7 +54,6 @@ From the calculation above, we can see the mean is **9354.23** and median is **1
 <br>
 
 ******  
-
 
 
 ## What is the average daily activity pattern?
@@ -82,7 +80,6 @@ From the calculation above, we can see the **104**th 5-minute interval contains 
 <br>
 
 ******   
-
 
 
 ## Imputing missing values
